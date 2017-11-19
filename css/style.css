@@ -25,6 +25,7 @@
     display: inline-block;
     position: relative;
     padding-left: 5px;
+    padding-bottom: 5px;
 }
 
 .item:hover > a {
@@ -280,6 +281,7 @@ h2{
 	cursor: default;
     top: 134px;
     left: 62px;
+    z-index: 1;
 
 }
 
@@ -292,6 +294,7 @@ a:hover >.box2{
     cursor: default;
     top: 134px;
     left: 366px;
+    z-index: 1;
 }
 
 a:hover >.box3{
@@ -303,20 +306,28 @@ a:hover >.box3{
     cursor: default;
     top: 134px;
     left: 667px;
+    z-index: 1;
 }
 
 
 .box1 {
-    display: table-column-group;
+    display: block;
+    width: 150px;
+    height: 270px;
+    background: #263555;
+    overflow: hidden;
+    position: absolute;
+    cursor: default;
+    z-index: -1;
 }
 
-.detalis{
+.detalis {
     display: block;
     position: absolute;
     top: 240px;
-    left: 88px;
-    width: 50px;
-    height: 17px;
+    left: 70px;
+    width: 65px;
+    height: 20px;
     background: #fbf6f9;
     text-align: center;
     border-radius: 4px;
@@ -326,11 +337,25 @@ a:hover >.box3{
 }
 
 .box2 {
-    display: table-column-group;
+    display: block;
+    width: 150px;
+    height: 270px;
+    background: #263555;
+    overflow: hidden;
+    position: absolute;
+    cursor: default;
+    z-index: -1;
 }
 
 .box3 {
-    display: table-column-group;
+    display: block;
+    width: 150px;
+    height: 270px;
+    background: #263555;
+    overflow: hidden;
+    position: absolute;
+    cursor: default;
+    z-index: -1;
 }
 
 .scrollTopBtn{
